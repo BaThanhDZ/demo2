@@ -1,0 +1,630 @@
+@media screen and (max-width: 1200px) {
+	header .header_top .header_topleft {
+		width: 350px;
+		height: 38px;
+	}
+	
+	.container .header_content .header_phone .des_icon {
+		font-size: 12px;
+	}
+	.container .header_content .header_contact {
+		.des_icon {
+			font-size: 12px;
+		}
+		.icon {
+			padding-right: 50px;
+		}
+	}
+
+	nav .nav {
+		&::after {
+			top: -2px;
+		}
+	}
+
+	footer .footer {
+		height: 488px;
+		.footer_left {
+			width: 450px;
+		}
+	    .footer_top {
+	    	.top_left {
+	    		width: 440px;
+	    		margin-top: -1px;
+	    	}
+	    	.top_right { 
+	    		width: 400px;
+	    		margin-top: -1px;
+	    	}
+    	}
+    	.footer_bottom {
+    		.bottom_left {
+    			margin-top: -2px;
+				width: 130px;
+    		}
+    		.bottom_left_more {
+    			left: 100px;
+    			margin-top: -1px;
+    		}
+    	}
+
+    	.footer_design {
+    		margin-top: 70px;
+    		.container {
+    			.design_contact {
+    				margin-top: 3px;
+    			}
+    		}
+    	}
+    }
+    footer .footer .container .footer_layout .about_us .footer_logo .des_logo {
+    	float: none;
+    }
+    footer .footer .container .footer_layout .about_us .footer_intro {
+    	margin: 0px;
+    	text-align: justify;
+    }
+}
+
+@media screen and (max-width: 992px) {
+	header {
+		.header_top {
+			.header_greeting {
+				margin-bottom: 10px;
+			}
+			.header_topleft {
+				width: 0px;
+			}
+			.header_icon {
+				float: none;
+				display: inline-table;
+				width: 0px;
+		    	height: 32px;
+		    	.icon_mxh {
+					margin-right: 0px;
+					margin-bottom: 8px;
+				}
+			}
+		}
+	}
+
+	.container .header_content {
+		.header_logo {
+			flex: 2.6;
+			.des_logo {
+			float: none;
+			line-height: 20px;
+			margin-top: 5px;
+				span {
+					font-size: 10px;
+				}
+			}
+		}
+		.header_phone {
+			margin: 0px;
+			margin-left: -40px;
+			flex: 4.2;
+			.number p {
+				font-size: 18px;
+				padding: 0px;
+				margin-top: 18px;
+				margin-right: 5px;
+			}
+			.des_icon {
+				span div {
+					margin: 0px -5px;
+				}
+			}	
+		}
+		.header_contact {
+			margin: 0px;
+			.des_icon {
+				span div {
+					margin-left: 20px;
+				}
+			}
+			.icon {
+				margin-top: 0px;
+				a {
+					img {
+						display: table;
+					}
+				}
+			}
+		}
+	}
+
+	nav .nav {
+		.menu {
+			margin-left: -10px;
+			ul {
+				font-size: 10px;
+			}
+		}
+		.search {
+			font-size: 15px;
+			margin-right: 65px;
+    		margin-top: 18px;
+		}
+		&:after {
+			width: 0px;
+		}
+	}
+
+	section .container .news_body .item .content_item h2 {
+		font-size: 18px;
+		text-align: left;
+	}
+
+	section .intro {
+		flex-direction: column;
+		.content_intro {
+			margin-top: -5px;
+		}
+	}
+	.intro_slide {
+		padding-bottom: 60px;
+	}
+	footer .footer {
+    	.footer_left {
+    		width: 370px;
+    	} 
+    	.footer_top {
+    		&::after {
+    			clear: both;
+    			content: "";
+    			display: table;
+    		}
+	    	.top_left, .top_right {
+	    		width: 310px;
+	    		margin-top: -2px;
+	    		height: 22px
+	    	}
+   		}
+   		.footer_bottom {
+   			.bottom_left {
+   				width: 90px;
+   				margin-top: -2px;
+   			}
+   			.bottom_left_more {
+   				left: 40px;
+   				margin-top: -1px;
+   			}
+   		}
+   		.container {
+   			.footer_layout {
+   				padding-top: 80px;
+   				.about_us {
+	   				.footer_logo .des_logo {
+	   					margin: 0px;
+	   					margin-left: 5px;
+	   					float: none;
+	   					span {
+	   						font-size: 10px;
+	   					}
+   					}
+   					.footer_intro {
+   						margin-top: 0px;
+   						text-align: justify;
+   					}
+   					.icon {
+   						font-size: 1px;
+   					}
+   				}
+   				.list_menu {
+   					margin-left: 30px;
+   				}
+   			}
+   		}
+   		.footer_design {
+   			margin-top: 14px;
+   			.container {
+	   			.design_info {
+	   				font-size: 15px;
+	    			margin-top: 18px;
+	    			margin-left: 130px;
+	   			}
+	   			.design_contact {
+	   				font-size: 10px;
+	   				margin-top: 28px;
+	   			}
+   			}
+   		}
+   	}
+}
+
+/* Có tác dụng từ 577 => 768*/
+@media screen and (max-width: 768px) {
+	header .header_top {
+		.header_greeting {
+			margin-bottom: 8px;
+		}
+		.header_topleft {
+			width: 0px;
+		}
+		.header_icon {
+			float: none;
+			display: inline-table;
+			width: 140px;
+	    	height: 32px;
+	    	.icon_mxh {
+				margin-right: 0px;
+				margin-bottom: 8px;
+			}
+		}
+	}
+
+	.container .header_content {
+		.header_logo {
+			flex: 2.6;
+			.des_logo {
+				float: none;
+				line-height: 20px;
+				margin-top: 5px;
+				p {
+					font-size: 24px;
+				}
+				span {
+					font-size: 12px;
+				}
+			}
+		}
+		.header_phone {
+			margin-left: -85px;
+			margin-top: 0px;
+			flex: 4.2;
+			.number p {
+				font-size: 18px;
+				padding: 0px;
+				margin-top: 18px;
+				margin-right: 5px;
+			}
+			.des_icon {
+				span div {
+					margin: 0px -5px;
+				}
+			}	
+			.icon {
+				font-size: 25px;
+			}
+		}
+		.header_contact {
+			margin: 0px;
+			.des_icon {
+				span div {
+					margin-left: -15px;
+					font-size: 12px;
+				}
+			}
+			.icon {
+				margin-top: -30px;
+				padding-right: 0px;
+				font-size: 0px;
+				a {
+					img {
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+
+	nav .nav {
+		.menu {
+			margin-left: -10px;
+			ul {
+				font-size: 8px;
+			}
+		}
+		.search {
+			font-size: 15px;
+			margin-right: 20px;
+    		margin-top: 18px;
+		}
+		&:after {
+			width: 0px;
+		}
+	}
+
+	.intro_slide {
+		padding-bottom: 10px;
+	}
+
+	section .container .article_body {
+		.item {
+			.content_item {
+				h2 {
+					text-align: left;
+					font-size: 14px
+				}
+			}
+		}
+	}
+	.intro {
+		margin-top: 0px;
+	}
+	section .container .news_body {
+		.item {
+			.content_item h2 {
+				font-size: 18px;
+				width: 100%;
+			}
+		}
+	}
+
+	section {
+		.intro {
+			flex-direction: column;
+		}
+	}
+
+	footer .footer {
+    	margin-top: 0px;
+    	.footer_left {
+    		width: 400px;
+    	} 
+    	.top_left {
+    		width: 200px;
+    	}
+    	.top_right { 
+    		width: 200px;
+    	}
+    	.bottom_left {
+    		width: 110px;
+    		margin-top: -1px;
+    	}
+    	.bottom_left_more {
+    		left: 35px;
+    		margin-top: -1px;
+    	}
+    	.container .footer_layout {
+    		padding-top: 78px;
+	    	.about_us {
+	    		.footer_logo .des_logo { 
+		    		float: none;
+		    		h1 {
+		    			font-size: 24px;
+		    		}
+		    		span {
+		    			font-size: 8px;
+		    		}
+	    		}
+	    		.footer_intro {
+	    			margin: 0px;
+	    			p { 
+	    				text-align: justify;
+	    			}
+	    		}
+	    		.icon {
+	    			font-size: 0px;
+	    			margin-top: 15px;
+	    			span a {
+	    				font-size: 26px;
+	    			}
+	    		}
+	    	}
+	    	.test {
+	    		.list_menu {
+		    		margin-left: 70px;
+
+		    	}
+	    	}
+		    	
+    	}
+    	.footer_design {
+    		.container {
+    			.design_info {
+	    			margin-left: 110px;
+	    			font-size: 15px;
+	    		}
+	    		.design_contact {
+	    			font-size: 10px;
+    				margin-top: 28px;
+	    		}
+    		}	
+    	}
+    }
+}
+
+
+/* Có tác dụng từ 1 => 576*/
+@media screen and (max-width: 576px) {
+	.container .header_content {
+		.header_logo {
+			flex: 4;
+			.des_logo {
+				span {
+					font-size: 10px;
+				}
+			}
+		}
+		.header_phone {
+			flex: 3;
+			margin-left: -50px;
+			margin-top: -16px;
+		}
+		.header_contact {
+			flex: 3;
+			margin-top: -10px;
+			.icon {
+				display: contents;
+   				 padding-left: 15px;
+			} 
+			.des_icon {
+				span {
+					div {
+						margin-left: 0px;
+					}
+				}
+			}
+		}
+	}
+
+	.menu_mobile {
+		display: block !important;
+		.content {
+			display: flex;
+			position: relative;
+			background-color: $colorDefault;
+			color: white;
+			text-transform: uppercase;
+    		margin: -16px 0px;
+    		font-family: 'Roboto Condensed', sans-serif;
+    		font-weight: bold;
+			.title {
+				flex: 5;
+				span i{
+					cursor: pointer;
+				    padding: 10px 20px;
+				    display: block;
+				    width: 54px;
+				}
+			}
+			.icon {
+				flex: 5;
+				padding: 5px 15px;
+				text-align: right;
+
+    			input {
+    				border-radius: 10px;
+    				width: 80%;
+    				outline: none;
+    			}
+    			button {
+    				position: absolute;
+    				right: 21px;
+					top: 9px;
+					border: none;
+					cursor: pointer;
+					display: block;	
+					outline: none;
+    			}
+			}
+		}
+	}
+
+	.nav_hide {
+		display: none !important;
+	}
+
+	nav .nav {
+		flex-direction: column;
+		margin-top: 10px;
+		.menu {
+			margin: 5px 0px 5px -8px;
+			ul {
+				font-size: 20px;
+				li {
+					float: none;
+					padding: 5px 0px;
+					&::hover {
+						background-color: gray;
+						color: $colorDefault;
+					}
+				}
+			}
+		}
+		.search {
+			display: none;
+		}
+	}
+
+	section {
+		.intro {
+			margin-top: 0px;
+		}
+	}
+
+	section .container {
+		.article_body {
+			.edit {
+				display: flex;
+				flex-direction: column;
+				.item {
+					width: 100%;
+				}
+			}
+				
+		}
+		.news_body {
+			.edit {
+				display: flex;
+				flex-direction: column;
+				.item {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	footer .footer {
+		margin-top: -80px;
+		background-color: transparent;
+		color: black;
+		.footer_bottom {
+			display: none;
+		}
+		.footer_left {
+			display: none;
+		}
+		.container .footer_layout {
+			display: flex ; 
+			flex-direction: column;		
+			.about_us {
+				background-color: $colorDefault;
+				color: white;
+				padding: 0px 10px;
+				width: 100%;
+				.footer_logo {
+					text-align: center;
+					.logo {
+						float: none;
+						padding-top: 10px;
+					}
+					.des_logo {
+						span {font-size: 15px;}
+					}
+				}
+				.footer_intro {
+					p {
+						margin: -15px 0px -5px;
+					}	
+				}
+				.icon { 
+					text-align: center;
+				}
+			}
+			.test {
+				display: flex;				
+				background: #333333;
+			    margin-top: -16px;
+			    padding: 10px;
+			    color: white;
+				.list_menu {
+					flex: 2.5;
+					margin-left: 0px;
+			    	h1 {
+				    	font-size: 20px;
+				    }
+			    }
+			    .policy {
+					flex: 3.5;
+				}
+				.info {
+					flex: 4;
+				}
+			} 
+		}
+		.footer_design {
+			margin-top: -25px;
+			.container {
+				.design_info {
+					margin-left: 10px;
+				}
+				.design_contact {
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+}
